@@ -1,0 +1,10 @@
+[package]
+name = "iota-vanitygen"
+version = "0.1.0"
+authors = ["Thoralf-M <thoralf.mue@gmail.com>"]
+edition = "2018"
+
+# See more keys and their definitions at https://doc.rust-lang.org/cargo/reference/manifest.html
+
+[dependencies]
+iota_ed25519_addresses = { git = "https://github.com/Thoralf-M/IOTA-Ed25519-addresses" }
